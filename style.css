@@ -1,0 +1,52 @@
+body
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+h1
+{
+    font-size: 50px;
+    font-family: cursive;
+    text-shadow: 3px 3px 3px rgba(1, 2, 3, 0.5);
+    white-space: nowrap;
+}
+.conatiner
+{
+    text-align: center;
+}
+
+.btn
+{
+    padding: 30px 50px;
+    background-color: white;
+    border: none;
+    margin: 10px;
+    font-size: 30px;
+    min-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background: url("Kick.jpg");
+    background-size: cover;
+    color: white;
+    font-family: cursive;
+    text-shadow: 2px 2px 3px  rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+.btn:hover
+{
+    color: blueviolet;
+}
+
+.btn:active
+{
+    background-size: 105%;
+}
+
